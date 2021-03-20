@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+     
+   <link rel='stylesheet' href="/style.css">
+    
+      
+    
+    <script src="https://kit.fontawesome.com/f6cf8ea679.js" crossorigin="anonymous"></script>
+    <a href="https://icons8.com/icon/17949/google"></a>
+    
+ </head>
+ <body>
+
+     <nav> 
+    <ul>
+     <li><a class="active" href="/" id="home">Home</a></li>
+     <li><a href="#about" id="about">About</a></li>
+     <li><button onclick= "window.location.href("/register")" id="lgbtn">Log in/Sign up</button></li>
+   
+   
+    </ul>
+   </nav>
+
+   
+
+
+  
+    <!--signup-->
+                
+                    {{#if message}}
+                  <h3 style= "color:red">{{message}}</h3>
+
+                  {{/if}}
+              
+            <div id="sup-container">
+                 
+          
+              <div id="text"> Sign up </div>
+                      <hr style="width: 300px;"><br>
+                    
+                      <form action="/auth/register" method="POST" id="signup-form">
+                    <div id="sup-name-box">
+                        <label id="name">Fullname</label><br>
+                        <input id="name-box" placeholder="Enter fullname" name="fullname" type="text" required>            
+                    </div><br>
+                   
+                    <div id="sup-email-box">
+                        <label for="email" id="mail">Email</label><br>
+                        <input id="mail-box" placeholder="Enter email" name="Email" type="email" required>            
+                    </div><br>
+                     <div id="sup-psw-box">
+                        <label for="password" id="psw">Password</label><br> 
+                        <input id="psw-box" placeholder="Enter password" name="Password" type="password" required>            
+                    </div><br>
+                     <div id="sup-cpsw-box">
+                        <label for="confirm password" id="cpsw">Confirm password</label><br>
+                       <input id="confirm-psw-box" placeholder="Confirm password" name="Confirm_Password" type="password" required>         
+                    </div><br><br> 
+                    <div>
+                    <button id="signupbtn" type="submit" >Sign up</button> 
+                    <br>
+                     
+                      </div>
+                      </form>
+                         
+              </div>
+                  <br>
+                    <div id="dir-login">
+                      <i> Already have an account?</i> <a id="secondbtn" href="/login">login</a> 
+                    </div>
+                     
+                    
+      
+           
+             
+     
+
+    <script>
+        function myFunction() {
+
+        }
+
+
+    </script>
+       
+ </body>
+</html>

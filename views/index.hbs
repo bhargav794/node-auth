@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home</title>
+     <style>
+     ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color:  #12A5F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 0 1 100%;
+    text-transform: uppercase;
+  }
+
+  
+  
+  li {
+    padding: 0.5rem
+  }
+  
+  li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background 200ms ease;
+  }
+  
+  li a:hover {
+    background-color:rgb(255, 255, 255) ;
+    color:  #12A5F4;
+  }
+  
+
+  li button {
+    background: transparent;
+    border:1px solid white;
+    border-radius: 30px;
+    padding: .5rem 1rem;
+    padding-top: .5rem;
+     cursor: pointer;
+     color: whitesmoke;
+     float: right;
+     font-size: .8rem;
+     transition: background 200ms ease;
+     outline: none;
+    
+  }
+  .active{
+    background-color: #4CAF50 ;
+  }
+  .active:hover{
+           background-color: white;
+           color:#12A5F4 ;
+            transition: background 400ms ease;
+  }
+
+  li button:hover {
+     background-color: rgb(255, 255, 255);
+      color:  #12A5F4
+  }
+   
+ /*   li button:hover:not(.active) {
+    background-color: #ddd;
+  }*/
+  
+  li button.active {
+    color: white;
+    background-color: #4CAF50;
+    outline: none;
+  }
+  
+  
+     </style>
+ </head>
+ <body>
+   <nav> 
+    <ul>
+     <li><a class="active" href="#Home" id="home">Home</a></li>
+     <li><a href="#about" id="about">About</a></li>
+     <li><button onclick= "login()" id="lgbtn">Log in/Sign up</button></li>
+   
+   
+    </ul>
+   </nav>
+    <h1>Welcome to the homepage</h1>
+   <script>
+     function login() {
+  window.location.href = "/login";
+}
+   </script>
+
+
+   <!--firebse config-->
+   
+ </body>
+ </html>

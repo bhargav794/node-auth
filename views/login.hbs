@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+     
+   <link rel='stylesheet' href="/style.css">
+    
+      
+    
+    <script src="https://kit.fontawesome.com/f6cf8ea679.js" crossorigin="anonymous"></script>
+    <a href="https://icons8.com/icon/17949/google"></a>
+    
+ </head>
+ <body>
+
+     <nav> 
+    <ul>
+     <li><a class="active" href="/" id="home">Home</a></li>
+     <li><a href="#about" id="about">About</a></li>
+     <li><button onclick= "window.location.href("/register")" id="lgbtn">Log in/Sign up</button></li>
+   
+   
+    </ul>
+   </nav>
+
+   
+         {{#if message}}
+                  <h3 style= "color:red">{{message}}</h3>
+
+                  {{/if}}
+
+                   
+  
+    <br><br>
+         
+    <div id="container" style="display:block"> 
+        <div id="texts"> Login </div>
+              <hr style="color:black; width: 300px;"><br> 
+            <form action="/auth/login" method="POST" id = "signinform">
+            <div for="Email"id="email-box">
+                <label id="email">Email</label><br>
+                <input id="username-box" placeholder="Enter email" name="Email" type="email">            
+            </div><br>
+            <div id="pswd-box">
+                <label id="psw">Password</label><br> 
+                <input id="password-box" placeholder="Enter password"  type="password" name="Password">            
+            </div><br><br>
+            <button id="loginbtn" type="submit">Log In</button> 
+            </form>
+
+            <button id = "passwordreset">Forgot password?</button>
+         <!-- <p style = text-align:center;>____________________OR___________________</p>-->
+            
+             
+        
+      </div><br>
+            
+               <p id=dir-signup style="display:block">
+                  <i> Don't have an account?</i> <a id="firstbtn" href = "/register" >sign up</a>
+               </p>
+
+        </body>
+        </html>
