@@ -30,6 +30,7 @@ JWT_EXPIRES_IN = <Number of days  token expires in >
 JWT_COOKIE_EXPIRES = <Number of days cookie expires in>
   
   **Create a .env file with above variables and set your parameters**
-  ```START```
+  
+  ```# START```
   
   
