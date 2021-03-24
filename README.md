@@ -31,6 +31,26 @@ JWT_COOKIE_EXPIRES = <Number of days cookie expires in>
   
   **Create a .env file with above variables and set your parameters**
   
-  # START
+  
+  
+  # set tables
+  Now go to [phpmyadmin](http://localhost/phpmyadmin/index.php)
+  and create a new database table called users with the following 4 columns
+  1. Id
+  2. Fullname
+  3. Email
+  4. Password
+
+ 
+
+ # START
+  run ```npm start```
+  your app should be running on [http://localhost:5000/](http://localhost:5000/)
+  
+  
+
+
+  
+  
   
   
