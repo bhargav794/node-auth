@@ -1,2 +1,2 @@
-# node-auth
-user authentication with nodejs &amp; mysql under development
+# nodejs user auth
+user authentication with nodejs &; mysql under development
