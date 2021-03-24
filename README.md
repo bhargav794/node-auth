@@ -21,6 +21,7 @@ start mysql & apache on the xampp server
 
 # configure
 In .env file
+
 Database = <your database name>
 Database_host = localhost
 Database_user = root 
