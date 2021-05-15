@@ -22,13 +22,13 @@ start mysql & apache on the xampp server
 # configure
 In .env file
 
-Database = <your database name>
-Database_host = localhost
-Database_user = root 
-Database_password = 
-JWT_SECRET = <give a secret password>
-JWT_EXPIRES_IN = <Number of days  token expires in >
-JWT_COOKIE_EXPIRES = <Number of days cookie expires in>
+* Database = <your database name>
+* Database_host = localhost
+* Database_user = root 
+* Database_password = 
+* JWT_SECRET = <give a secret password>
+* JWT_EXPIRES_IN = <Number of days  token expires in >
+* JWT_COOKIE_EXPIRES = <Number of days cookie expires in>
   
   **Create a .env file with above variables and set your parameters**
   
