@@ -45,7 +45,8 @@ In .env file
  
 
  # START
-  run ```npm start```
+  run ```js
+  npm start```
   your app should be running on [http://localhost:5000/](http://localhost:5000/)
   
   
