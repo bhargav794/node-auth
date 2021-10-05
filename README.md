@@ -1,4 +1,4 @@
-# nodejs user auth
+# nodejs user authentication
 A test project to implement simple login and register using **Node.js, express.js,bcrypt.js & MySQL**
 * This project allows user to login and register 
 * when the user is logged in a cookie is passed using jwt so that he dont have to login everytime he visits the website
