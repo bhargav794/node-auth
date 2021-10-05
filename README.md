@@ -19,12 +19,12 @@ Make sure you have Nodejs & xampp installed
 start mysql & apache on the xampp server 
 
 
-# configure
+# .env example
 In .env file
 
 * Database = your database name
 * Database_host = localhost
-* Database_user = root 
+* Database_user = your database user name 
 * Database_password = 
 * JWT_SECRET = give a secret password
 * JWT_EXPIRES_IN = Number of days  token expires in 
